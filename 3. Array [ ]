@@ -1,0 +1,9 @@
+# Simple Array
+
+	1: String[] naming = new String [5];
+	naming[0] = "Amirul"
+
+	2: String[] naming = {"Amirul", "Ami"};
+
+	3: int[] number = {1, 2, 3};
+	 
