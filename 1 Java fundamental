@@ -1,0 +1,46 @@
+Misam:
+1: comment //  //TODO:  /**
+	(casting)
+	int a = 5;
+	int b = 2;
+	double answer = (double) a/b;
+ 
+2: Variables: 
+	int, long, double, float {folat myFloat = (float) 4.5;} {if not cast float it will double),
+	char {Unicode/single Character}, String
+	boolean
+
+3: Datatype,
+  1# primitive: Store values (int is a primitive data type and it store values.)
+  2# non-primitive: String  ,  Simple Array[]
+
+4: Operators
+	# arithmatic operators: +, -, *, /, % (remainder)
+		(casting)
+		int a = 5;
+		int b = 2;
+		double answer = (double) a/b;
+		a += 2  ==  a = a+2
+  
+	# compareson operator: > , < , >= , <= , == , !=
+	# logical operators: || (or) , && (and)
+
+5: conditional Statement:
+	# if  (if,  else if, else)
+	# switch : switch(variable){
+			case chack_Value:
+				break;
+			default:
+				break;
+
+
+6: loop:
+	# for (int i=0; i<10, i++){}
+
+	# while (condition){}
+		break;
+		continue;
+
+	# do{} while();
+	
+//TODO:	# for each loops:
