@@ -1,0 +1,12 @@
+# input
+	Scanner scannerName = new Scanner (System.in);
+ 
+(input integer)
+	int answer = scannerName.nextInt();
+ 
+ (input String)
+	String name = scannerName.next();
+
+# Random:
+	Random random = new Random();
+	int number = random.nextInt(20)+1;
