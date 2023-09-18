@@ -1,0 +1,27 @@
+1# inheritance == extends ClassName {constractor}
+	Ex:
+	1: public Class Dog extends Animal{}
+	2: public Class Shephard extends Dog{}
+
+
+2# Polymorphism = having multiple forms.
+	1: many constructor with same name
+	2: many method whith same name:	fly();  fly(int Speed);
+	2: Override methd (different forms: doing different job in different class.)
+
+3# Composition in OOP:
+
+  # Using classes in other classes
+	ex:
+	private class Car{
+		private Engine engine;
+		public Car(Engine engine) {this.engine = engine}
+		
+	private Class Main{
+	Car Name = new Car( new Engine("value") )
+
+4# Null == nothing
+
+5# final == will not change the value
+	1: final variable
+	2: final class
