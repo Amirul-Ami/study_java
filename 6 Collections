@@ -1,0 +1,18 @@
+in java there are multipul tipe of collection.
+
+collections:
+	1# ArrayList: ##( type argument cannot be primitive type ArrayList < class > )##
+		(two way of defining arraylist)
+		1: ArrayList <String> name = new ArrayList<>();	class
+		2: List <String> name = new ArrayList<>();	interface.
+
+		Arraylist Option:
+		add, get, size, clear, remove, indexOf, 
+		boolean: contains, inEmpty
+
+
+	2# Map: ##( type argument cannot be primitive type < class, class > )##
+		1: Map <Key, Value> naming = new HashMap<>();
+		
+		put, get, size, clear , remove
+		boolean: containsKey/containsValue, isEmpty
