@@ -1,0 +1,26 @@
+# Interface is like a contract between two part of you application.
+
+	1: inside interface we can define our abstract method
+	ex: void name();  (all abstract methods are public)
+
+# Using interface in class:
+
+	1: public className implements interfaceName{}
+	2: overright interface methods.
+
+# instantiating in Main Class:
+
+	1: InterfaceName naming = new ClassName();
+		(the class where to implements interface.)
+		(Assaining class to an interface)
+	2:ex:
+	    List <String> studentName = new Arraylist<>();
+	( List <E> ==> E means any kind of objects.)
+
+
+# Use of interface:
+	# interface is a contract between different part of your application
+	# cllback interface == click listener.
+	# communication between two different threads.
+	# implements multiple interfaces in the decoration of you class
+		( public class className implement firstInterface, secondInterface{} )
