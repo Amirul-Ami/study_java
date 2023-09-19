@@ -43,4 +43,12 @@ Misam:
 
 	# do{} while();
 	
-//TODO:	# for each loops:
+	# for each loops:
+		ArrayList <Data-type> ArrayListName = new ArrayList<>();
+		# for cach loop
+			for ( Data-type_of_The_object_we_are_look_into name: ArrayListName){
+			    System.out.println( name.fild_name() ); }
+		
+		# (equivalent for loop)
+			for(int i=0; i<ArrayListName.size(); i++){
+		            System.out.println(ArrayListName.get(i).fildName()); }
