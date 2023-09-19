@@ -1,0 +1,8 @@
+Difference:
+	1: Inner class can access parent filds and methods.( no matter what the modifier is.)
+	2: private class
+	3: static class
+
+Note:	(if want to use inner class in Main class)
+	1: Make inner class (public static)
+	2: using (ParentClassName.InnerClassName.methodName)
