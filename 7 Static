@@ -1,0 +1,7 @@
+Static: (belong to the object itself, not instance of that object.)
+	1: static variable 
+	2: static method
+
+ex: all instance of my employ class, company name will be same. (so company name will be static)
+
+Downside: Non-static things cannot referenced from a static context
