@@ -1,0 +1,18 @@
+Consider Using Abstract class:
+@ you want to share code among several closely related classes.
+@ you expect that classes that extends your abstract class have many common fields or methods, or requir access modifier other than public( such as private and protected).
+@ you want to declear Non-static and non-final fields. This enables you define method that can access and modify the state of the object to which they belong.
+
+Decoration:
+	1: public abstract class Naming{}
+	2: (abstract method)
+		public abstract void naming{};
+
+	3: (it has field and method like normal class)
+
+Implementation:
+	1: public class Naming extends AbstractClassName{
+	2: implement abstract methods
+
+	3: Using in Main class:
+		abstract_Methods_name naming = new ClassName();  (the class where abstract class extends, like interface).
