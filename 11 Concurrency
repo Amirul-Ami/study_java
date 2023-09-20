@@ -1,0 +1,43 @@
+1: import java.lang.Thread;
+
+2: Thread tread = new Thread ( new Runnable(){
+	@Override
+	public void run(){
+
+			//code apear hear.
+		}
+	});
+
+3: Thread.sleep();
+	# with try-catch:
+	
+	try{ Thread.sleep(1000); }
+	catch(Exception e) { System.out.print(e); }
+
+4: thread.start();
+
+
+
+
+Explain work flow:
+	*Thread threadName = new Thread( new Runnable() {}
+	*inside Runnable interface-> @Override -> public void run() -> Method
+	*inside the run() method code start.
+	*(and last of all Start the thread)->  threadName.start(); (out side of the Thread block.)
+
+
+
+concidaration:
+1: canceling the thread
+2: thread pulls
+(A Thread Pool is a collection of worker threads that efficiently execute asynchronous callbacks on behalf of the application. The thread pool is primarily used to reduce the number of application threads and provide management of the worker threads.)
+
+3: deadlock
+(In concurrent computing, deadlock is any situation in which no member of some group of entities can proceed because each waits for another member, including itself, to take action, such as sending a message or, more commonly, releasing a lock.[1] Deadlocks are a common problem in multiprocessing systems, parallel computing, and distributed systems, because in these contexts systems often use software or hardware locks to arbitrate shared resources and implement process synchronization.)
+
+4: interruptin thread
+(In Java Threads, if any thread is in sleeping or waiting state (i.e. sleep() or wait() is invoked), calling the interrupt() method on the thread, breaks out the sleeping or waiting state throwing InterruptedException. If the thread is not in the sleeping or waiting state, calling the interrupt() method performs normal behavior and doesn’t interrupt the thread but sets the interrupt flag to true. 
+
+interrupt() method: If any thread is in sleeping or waiting for a state then using the interrupt() method, we can interrupt the execution of that thread by showing InterruptedException. A thread that is in the sleeping or waiting state can be interrupted with the help of the interrupt() method of Thread class.
+
+Example: Suppose there are two threads and If one of the threads is blocked in an invocation of the wait(), wait(long), or wait(long, int) methods of the Object class, or of the join(), join(long), join(long, int), sleep(long), or sleep(long, int), methods of this class, then its interrupt status will be cleared and it will receive an InterruptedException, which gives the chance to another thread to execute the corresponding run() method of another thread which results into high performance and reduces the waiting time of the threads.)
