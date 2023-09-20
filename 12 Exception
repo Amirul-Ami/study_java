@@ -1,0 +1,23 @@
+1: try{} catch() {}
+
+example:
+	try{
+
+	}
+	catch(Exception_nane e){
+
+	}
+
+# if you do not know the type of exception use only (Exception e)
+ex:	try{}	catch( Exception e){}
+
+# for debuging purposes: printStackTrace();
+ex:	catch(Exception e){
+		e.printStackTrace();
+	}
+
+
+# some Exception Example:
+	(InterruptedException) : example> Downloading some file, and a phone call appear. program will crash.
+	(IoException): Input Output Exception.
+	
