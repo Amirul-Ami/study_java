@@ -1,0 +1,11 @@
+# toString() method abailable in every class.
+# this toString() method send the address of that class.
+
+
+@Override
+public String toString(){
+
+	String text = "Name of Class" + "\n Class Field: " + this.fild ;
+	return text; 
+
+}
